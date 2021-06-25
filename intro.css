@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: YuGothic;
+  line-height: 1.7;
+  color: #432;
+}
+
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(images/19344587672992b8217c3c764069c6bf_w.jpeg);
+  min-height: 100vh;
+}
+
+#map {
+  background-image: url(images/b074.jpeg);
+  background-repeat: repeat;
+  min-height: 100vh;
+}
+
+#personal {
+  background-image: url(images/p0510_m.jpeg);
+  background-repeat: repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+.main-nav a {
+  color: #432;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.persona {
+  font-size: 1.3rem;
+}
+
+.wrapper {
+  max-width:　1100px;
+  margin:　0 auto;
+  padding: 0 4%;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home_p-content {
+  text-align: center;
+}
+.page-title {
+  font-size: 5rem;
+  font-family: 'Philosopher',serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.home-sub {
+  font-size: 2rem;
+}
+
+.sub-title {
+  font-size: 2rem;
+}
